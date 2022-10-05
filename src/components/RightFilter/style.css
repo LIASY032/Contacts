@@ -1,0 +1,17 @@
+.right-filter {
+  position: sticky;
+  top: 100px;
+  justify-content: space-around;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-filter li {
+  list-style-type: none;
+}
+
+.right-filter li a {
+  text-decoration: none;
+  font-size: 25px;
+}
