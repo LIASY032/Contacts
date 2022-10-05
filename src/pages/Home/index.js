@@ -6,15 +6,10 @@ import RightFilter from "../../components/RightFilter";
 function Home() {
   const persons = useSelector((state) => state.persons.render) || [];
 
-  const alphabetList = React.useMemo(
-    () => retrieveAlphabetList(persons),
-    [persons]
-  );
+  const alphabetList = retrieveAlphabetList(persons);
 
-  const deplicatedList = React.useMemo(
-    () => new Set(alphabetList),
-    [alphabetList]
-  );
+  const deplicatedList = new Set(alphabetList);
+
   return (
     <>
       <Container style={{ maxWidth: "600px" }}>

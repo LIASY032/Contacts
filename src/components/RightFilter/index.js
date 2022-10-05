@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React from "react";
 import "./style.css";
 function RightFilter({ alphabetList }) {
   const list = [...alphabetList];
@@ -17,4 +17,4 @@ function RightFilter({ alphabetList }) {
   );
 }
 
-export default memo(RightFilter);
+export default RightFilter;

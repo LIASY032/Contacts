@@ -21,7 +21,7 @@ export const PersonReducer = (
       );
       return {
         render: result,
-        sort: new Object(result),
+        sort: result,
         selected: state.selected || result[0],
       };
 

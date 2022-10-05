@@ -16,7 +16,7 @@ function App() {
       await getPersonAction(dispatch);
     }
     fetchData();
-  }, []);
+  }, [dispatch]);
 
   const searchRef = React.useRef();
 
