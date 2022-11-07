@@ -1,0 +1,20 @@
+:root {
+  --middle-nav-icon-size: 30px;
+}
+
+.best-store {
+  display: inline-block;
+}
+
+.logo {
+  width: 100%;
+}
+
+.middle-nav-icon {
+  width: var(--middle-nav-icon-size);
+  height: var(--middle-nav-icon-size);
+}
+
+.the-best-product {
+  display: inline-block;
+}
