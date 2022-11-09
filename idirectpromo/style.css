@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 :root {
-  --middle-nav-icon-size: 30px;
+  --middle-nav-icon-size: 50px;
   --blue: #207bc1;
   --nav-text-size: 15px;
   --footer-background-color: #f6fbff;
+}
+
+#search {
+  cursor: pointer;
 }
 
 ul {
@@ -40,16 +44,14 @@ body {
 .middle-nav-icon {
   max-width: var(--middle-nav-icon-size);
   max-height: var(--middle-nav-icon-size);
-  min-width: 16px;
 
-  width: 100%;
-  height: 100%;
   color: var(--blue);
 }
 
 .bottom-nav {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-weight: 500;
 }
 
 .the-best-product {
@@ -75,6 +77,8 @@ body {
 
 .policy {
   margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .policy .col-md-3 {
@@ -83,6 +87,7 @@ body {
 
 .policy-item {
   background-color: #f4f6fa;
+  height: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -119,4 +124,20 @@ footer ul li {
 footer ul li a {
   font-size: 14px;
   color: black;
+}
+
+@media (max-width: 768px) {
+  .best-store {
+    display: none !important;
+  }
+  .carousel-item .card {
+    margin-bottom: 10px;
+  }
+  .accordion .col-md-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .middle-nav-display {
+    display: none !important;
+  }
 }

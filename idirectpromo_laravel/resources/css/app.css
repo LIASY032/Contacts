@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+:root {
+    --middle-nav-icon-size: 50px;
+    --blue: #207bc1;
+    --nav-text-size: 15px;
+    --footer-background-color: #f6fbff;
+}
+
+#search {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.padding-space {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.best-store {
+    font-size: var(--nav-text-size);
+    color: var(--blue);
+}
+
+.logo {
+    width: 100%;
+}
+.middle-nav {
+    text-align: center;
+    font-size: var(--nav-text-size);
+}
+
+.middle-nav-icon {
+    max-width: var(--middle-nav-icon-size);
+    max-height: var(--middle-nav-icon-size);
+
+    color: var(--blue);
+}
+
+.bottom-nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.the-best-product {
+    display: inline-block;
+    color: var(--blue);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.best-product-content p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.tab-content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.find-answer {
+    color: var(--blue);
+    text-align: center;
+}
+
+.policy {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.policy .col-md-3 {
+    padding: 10px 10px 10px 10px;
+}
+
+.policy-item {
+    background-color: #f4f6fa;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.policy figure {
+    height: 67px;
+}
+
+.policy figure img {
+    height: 100%;
+}
+
+.accordion-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.accordion {
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    background-color: var(--footer-background-color);
+}
+
+footer h5 {
+    color: var(--blue);
+}
+
+footer ul li {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+footer ul li a {
+    font-size: 14px;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .best-store {
+        display: none !important;
+    }
+    .carousel-item .card {
+        margin-bottom: 10px;
+    }
+    .accordion .col-md-6 {
+        margin-bottom: 1.5rem;
+    }
+
+    .middle-nav-display {
+        display: none !important;
+    }
+}
